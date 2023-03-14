@@ -1,4 +1,5 @@
-﻿using ListBuddy.ViewModels.Dashboard;
+﻿using ListBuddy.ViewModels;
+using ListBuddy.ViewModels.Dashboard;
 using ListBuddy.ViewModels.Startup;
 using ListBuddy.Views;
 using ListBuddy.Views.Dashboard;
@@ -24,11 +25,13 @@ public static class MauiProgram
 		builder.Services.AddSingleton<DashboardPage>();
 		builder.Services.AddSingleton<LoginPage>();
 		builder.Services.AddSingleton<LoadingPage>();
+		builder.Services.AddSingleton<ListsPage>();
 
 
         builder.Services.AddSingleton<LoginPageViewModel>();
 		builder.Services.AddSingleton<DashboardPageViewModel>();
 		builder.Services.AddSingleton<LoadingPageViewModel>();
+		builder.Services.AddSingleton<ListsPageViewModel>();
 
         return builder.Build();
 	}
