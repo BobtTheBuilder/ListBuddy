@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ppetr\\Source\\Repos\\ListBuddy\\ListBuddy.csproj": {}
+    "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ppetr\\Source\\Repos\\ListBuddy\\ListBuddy.csproj": {
+    "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ppetr\\Source\\Repos\\ListBuddy\\ListBuddy.csproj",
+        "projectUniqueName": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj",
         "projectName": "ListBuddy",
-        "projectPath": "C:\\Users\\ppetr\\Source\\Repos\\ListBuddy\\ListBuddy.csproj",
+        "projectPath": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj",
         "packagesPath": "C:\\Users\\ppetr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ppetr\\Source\\Repos\\ListBuddy\\obj\\",
+        "outputPath": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t6kKsm5MxjuJRanW31lHUAWxHIcDOTSNgGcTAXlpOl43E8C4xxriA6tGTVfoZstReh304Kv7cTiiupHklNyWwQ==",
+  "dgSpecHash": "hwzG9kRGQt3J+xwZkt0iRqcrm47K7ZlZkzSipKlB8h9m+XTY9+ExEpIFIoPgMlZ/hnPqmNpxva8uMfKn343Wcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ppetr\\Source\\Repos\\ListBuddy\\ListBuddy.csproj",
+  "projectFilePath": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ppetr\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\ppetr\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",

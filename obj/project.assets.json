@@ -25568,11 +25568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ppetr\\source\\repos\\ListBuddy\\ListBuddy.csproj",
+      "projectUniqueName": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj",
       "projectName": "ListBuddy",
-      "projectPath": "C:\\Users\\ppetr\\source\\repos\\ListBuddy\\ListBuddy.csproj",
+      "projectPath": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\ListBuddy.csproj",
       "packagesPath": "C:\\Users\\ppetr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ppetr\\source\\repos\\ListBuddy\\obj\\",
+      "outputPath": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\ListBuddy\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

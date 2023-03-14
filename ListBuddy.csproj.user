@@ -16,6 +16,9 @@
     <MauiXaml Update="Views\Dashboard\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\OtherPages\DetailPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\OtherPages\ListsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

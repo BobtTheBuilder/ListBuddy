@@ -3,10 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ListBuddy.Views.OtherPages.ListsPage"
              Title="ListsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <Grid
+          RowDefinitions="100, Auto, *"
+          ColumnDefinitions=".75*, .25*"
+          Padding="10"
+          RowSpacing="10"
+          ColumnSpacing="10">
+
+            <Image Grid.ColumnSpan="2"              
+               BackgroundColor="MediumPurple"/>
+
+            <Entry Placeholder="Enter task"              
+               Grid.Row="1"/>
+
+            <Button Text="Add"              
+                Grid.Row="1"
+                Grid.Column="1"/>
+
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="2">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Wash</x:String>
+                    <x:String>Banana</x:String>
+                    <x:String>Root</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+                
+        </CollectionView>    
+        
+    </Grid>
+        
 </ContentPage>

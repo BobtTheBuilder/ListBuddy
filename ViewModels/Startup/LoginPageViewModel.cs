@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using ListBuddy.Controls;
 using ListBuddy.Models;
@@ -31,7 +32,7 @@ namespace ListBuddy.ViewModels.Startup
                 var userDetails = new UserInfo()
                 {
                     Email = Email,
-                    FullName= "Test Username"
+                    FullName = "UserInterface"
                 };
 
 
