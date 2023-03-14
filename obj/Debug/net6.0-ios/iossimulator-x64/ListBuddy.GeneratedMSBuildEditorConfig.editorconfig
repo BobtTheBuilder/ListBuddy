@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ListBuddy
+build_property.ProjectDir = C:\Users\ppetr\source\repos\ListBuddy\
+
+[C:/Users/ppetr/source/repos/ListBuddy/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Controls/FlyoutHeaderControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Controls.FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\FlyoutHeaderControl.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Views/Dashboard/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.Dashboard.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard\DashboardPage.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Views/OtherPages/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\AboutPage.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Views/OtherPages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\HomePage.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Views/OtherPages/ListsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.ListsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\ListsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\ListsPage.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Views/Startup/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.Startup.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Startup\LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Startup\LoadingPage.xaml
+
+[C:/Users/ppetr/source/repos/ListBuddy/Views/Startup/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.Startup.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Startup\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Startup\LoginPage.xaml

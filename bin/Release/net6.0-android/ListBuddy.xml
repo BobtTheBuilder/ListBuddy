@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListBuddy</name>
+    </assembly>
+    <members>
+        <member name="P:ListBuddy.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:ListBuddy.ViewModels.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:ListBuddy.ViewModels.BaseViewModel._title"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.LoginPageViewModel.UserName">
+            <inheritdoc cref="F:ListBuddy.ViewModels.LoginPageViewModel._userName"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.LoginPageViewModel.Password">
+            <inheritdoc cref="F:ListBuddy.ViewModels.LoginPageViewModel._password"/>
+        </member>
+        <member name="F:ListBuddy.ViewModels.LoginPageViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.LoginPageViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.LoginPageViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.LoginPageViewModel.Login"/>.</summary>
+        </member>
+    </members>
+</doc>

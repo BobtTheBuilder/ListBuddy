@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListBuddy</name>
+    </assembly>
+    <members>
+        <member name="F:ListBuddy.ViewModels.AppShellViewModel.signOutCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.AppShellViewModel.SignOutCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.AppShellViewModel.SignOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.AppShellViewModel.SignOut"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:ListBuddy.ViewModels.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:ListBuddy.ViewModels.BaseViewModel._title"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.Startup.LoginPageViewModel.Email">
+            <inheritdoc cref="F:ListBuddy.ViewModels.Startup.LoginPageViewModel._email"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.Startup.LoginPageViewModel.Password">
+            <inheritdoc cref="F:ListBuddy.ViewModels.Startup.LoginPageViewModel._password"/>
+        </member>
+        <member name="F:ListBuddy.ViewModels.Startup.LoginPageViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.Startup.LoginPageViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.Startup.LoginPageViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.Startup.LoginPageViewModel.Login"/>.</summary>
+        </member>
+    </members>
+</doc>
