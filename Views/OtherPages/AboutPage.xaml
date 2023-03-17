@@ -4,8 +4,7 @@
              x:Class="ListBuddy.Views.OtherPages.AboutPage"
              Title="AboutPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+        <Label             
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

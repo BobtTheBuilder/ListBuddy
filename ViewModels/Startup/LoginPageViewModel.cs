@@ -31,8 +31,8 @@ namespace ListBuddy.ViewModels.Startup
 
                 var userDetails = new UserInfo()
                 {
-                    Email = Email,
-                    FullName = "UserInterface"
+                    
+                    FullName = Email
                 };
 
 

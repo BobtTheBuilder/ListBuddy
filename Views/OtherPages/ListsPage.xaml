@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ListBuddy.Views.OtherPages.ListsPage"
+             xmlns:viewmodel="clr-namespace:ListBuddy.ViewModels"
+             x:DataType="viewmodel:ListsPageViewModel"
              Title="ListsPage">
 
     <Grid
@@ -11,24 +13,46 @@
           RowSpacing="10"
           ColumnSpacing="10">
 
-            <Image Grid.ColumnSpan="2"              
-               BackgroundColor="MediumPurple"/>
+            <Image Grid.ColumnSpan="2"    
+                   Source="https://www.flaticon.com/free-icon/laptop_114734"
+                   BackgroundColor="MediumPurple"/>
 
-            <Entry Placeholder="Enter task"              
-               Grid.Row="1"/>
+            <Entry Placeholder="Enter task"
+                   Text="{Binding Text}"
+                   Grid.Row="1"/>
 
-            <Button Text="Add"              
-                Grid.Row="1"
-                Grid.Column="1"/>
+            <Button Text="Add"
+                    Command="{Binding AddCommand}"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
 
-        <CollectionView Grid.Row="2" Grid.ColumnSpan="2">
-            <CollectionView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Wash</x:String>
-                    <x:String>Banana</x:String>
-                    <x:String>Root</x:String>
-                </x:Array>
-            </CollectionView.ItemsSource>
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Items}"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ListsPageViewModel}}, Path=DeleteCommand}"
+                                           CommandParameter="{Binding .}"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid Padding="0,5">
+                            <Frame>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ListsPageViewModel}}, Path=TapCommand}"
+                                           CommandParameter="{Binding .}"/>
+                                </Frame.GestureRecognizers>
+                                <Label Text="{Binding .}"
+                                       FontSize="24"/>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
                 
         </CollectionView>    
         

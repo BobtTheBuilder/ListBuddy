@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using Kotlin;
 
-namespace ListBuddy.ViewModels
+namespace ListBuddy.ViewModels;
+
+[QueryProperty("Text", "Text")]
+public partial class DetailPageViewModel : ObservableObject
 {
-    internal class DetailPageViewModel
+    [ObservableProperty]
+    string text;
+
+    [RelayCommand]
+    async Task GoBackHome()
     {
+        await Shell.Current.GoToAsync("HomePage");
+    }
+
+    [RelayCommand]
+    async Task GoBack()
+    {
+        await Shell.Current.GoToAsync("..");
     }
 }
+
