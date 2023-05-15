@@ -30,7 +30,7 @@
         Route="AboutPage" />
 
         <ShellContent
-        Title="Lists"
+        Title="Games"
         ContentTemplate="{DataTemplate otherPages:ListsPage}"
         Route="ListsPage" />
         

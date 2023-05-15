@@ -16,20 +16,17 @@
         <member name="P:ListBuddy.ViewModels.BaseViewModel.Title">
             <inheritdoc cref="F:ListBuddy.ViewModels.BaseViewModel._title"/>
         </member>
-        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.Text">
-            <inheritdoc cref="F:ListBuddy.ViewModels.DetailPageViewModel.text"/>
+        <member name="F:ListBuddy.ViewModels.DetailPageViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DetailPageViewModel.AddCommand"/>.</summary>
         </member>
-        <member name="F:ListBuddy.ViewModels.DetailPageViewModel.goBackHomeCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DetailPageViewModel.GoBackHomeCommand"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DetailPageViewModel.Add"/>.</summary>
         </member>
-        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.GoBackHomeCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DetailPageViewModel.GoBackHome"/>.</summary>
+        <member name="F:ListBuddy.ViewModels.DetailPageViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DetailPageViewModel.DeleteCommand"/>.</summary>
         </member>
-        <member name="F:ListBuddy.ViewModels.DetailPageViewModel.goBackCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DetailPageViewModel.GoBackCommand"/>.</summary>
-        </member>
-        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.GoBackCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DetailPageViewModel.GoBack"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DetailPageViewModel.Delete(System.String)"/>.</summary>
         </member>
         <member name="P:ListBuddy.ViewModels.ListsPageViewModel.Items">
             <inheritdoc cref="F:ListBuddy.ViewModels.ListsPageViewModel.items"/>

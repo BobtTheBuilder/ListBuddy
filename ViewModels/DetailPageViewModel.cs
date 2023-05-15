@@ -1,25 +1,46 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Kotlin;
+using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace ListBuddy.ViewModels;
 
 [QueryProperty("Text", "Text")]
 public partial class DetailPageViewModel : ObservableObject
 {
-    [ObservableProperty]
-    string text;
+    public DetailPageViewModel()
+    {
+        Gameitems = new ObservableCollection<string>();
+    }
+
+    
+    public ObservableCollection<string> Gameitems { get; set; }
+
+    
+    public string Text { get; set; }
+
+    
+    public string Gametext { get; set; }
 
     [RelayCommand]
-    async Task GoBackHome()
+    public void Add()
     {
-        await Shell.Current.GoToAsync("HomePage");
+        if (string.IsNullOrWhiteSpace(Gametext))
+            return;
+
+        Gameitems.Add(Gametext);
+        Gametext = string.Empty;
     }
 
     [RelayCommand]
-    async Task GoBack()
+    public void Delete(string s)
     {
-        await Shell.Current.GoToAsync("..");
+        if (Gameitems.Contains(s))
+        {
+            Gameitems.Remove(s);
+        }
     }
 }
+
+
 

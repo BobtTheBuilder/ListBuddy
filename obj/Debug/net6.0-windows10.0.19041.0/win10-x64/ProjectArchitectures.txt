@@ -1,0 +1,1 @@
+C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\ListBuddy.csproj;x64

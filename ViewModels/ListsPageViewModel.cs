@@ -10,7 +10,7 @@ namespace ListBuddy.ViewModels
 
         public ListsPageViewModel()
         {
-            Items = new ObservableCollection<string>();
+            items = new ObservableCollection<string>();
         }
 
         [ObservableProperty]
@@ -22,18 +22,18 @@ namespace ListBuddy.ViewModels
         [RelayCommand]
         void Add()
         {
-            if (string.IsNullOrWhiteSpace(Text))
+            if (string.IsNullOrWhiteSpace(text))
                 return;
-            Items.Add(Text);
-            Text = string.Empty;
+            items.Add(text);
+            text = string.Empty;
         }
 
         [RelayCommand]
         void Delete(string s)
         {
-            if(Items.Contains(s))
+            if(items.Contains(s))
             {
-                Items.Remove(s);
+                items.Remove(s);
             }
         }
 

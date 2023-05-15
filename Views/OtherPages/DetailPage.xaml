@@ -4,19 +4,45 @@
              x:Class="ListBuddy.Views.OtherPages.DetailPage"
              xmlns:viewmodel="clr-namespace:ListBuddy.ViewModels"
              x:DataType="viewmodel:DetailPageViewModel"
-             Title="DetailPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="{Binding Text}"
-            FontSize="30"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Title="GameDetailPage">
+    <Grid
+          RowDefinitions="100, Auto, *"
+          ColumnDefinitions=".75*, .25*"
+          Padding="10"
+          RowSpacing="10"
+          ColumnSpacing="10">
 
-        <Button Text="Go Back"
-                Command="{Binding GoBackCommand}"
-                Margin="20"/>
-        <Button Text="Back to Home"
-                Command="{Binding GoBackHomeCommand}"
-                Margin="20"/>
-    </VerticalStackLayout>
+        <Label Text="Similar games" FontSize="60" HorizontalOptions="Center" TextColor="MediumPurple" >
+
+        </Label>
+        <Entry Placeholder="Enter similar game"                  
+       Text="{Binding Gametext}"
+       FontSize="25"
+       Grid.Row="1"/>
+
+        <Button Text="Add"
+                    Command="{Binding AddCommand}"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Gameitems}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:DetailPageViewModel}}, Path=DeleteCommand}"
+                                           CommandParameter="{Binding .}"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+
 </ContentPage>
+    

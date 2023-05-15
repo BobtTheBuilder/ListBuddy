@@ -76,6 +76,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages
 build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\ListsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\ListsPage.xaml
 
+[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\RegisterPage.xaml
+
 [C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/Startup/LoadingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.Startup.LoadingPage.xaml

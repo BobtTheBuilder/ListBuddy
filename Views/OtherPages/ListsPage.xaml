@@ -4,7 +4,7 @@
              x:Class="ListBuddy.Views.OtherPages.ListsPage"
              xmlns:viewmodel="clr-namespace:ListBuddy.ViewModels"
              x:DataType="viewmodel:ListsPageViewModel"
-             Title="ListsPage">
+             Title="GamesPage">
 
     <Grid
           RowDefinitions="100, Auto, *"
@@ -13,12 +13,12 @@
           RowSpacing="10"
           ColumnSpacing="10">
 
-            <Image Grid.ColumnSpan="2"    
-                   Source="https://www.flaticon.com/free-icon/laptop_114734"
-                   BackgroundColor="MediumPurple"/>
-
-            <Entry Placeholder="Enter task"
+        <Label Text="Games" FontSize="60" HorizontalOptions="Center" TextColor="MediumPurple" >
+            
+        </Label>
+            <Entry Placeholder="Enter game"                  
                    Text="{Binding Text}"
+                   FontSize="25"
                    Grid.Row="1"/>
 
             <Button Text="Add"
