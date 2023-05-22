@@ -3,6 +3,7 @@ using ListBuddy.ViewModels.Dashboard;
 using ListBuddy.ViewModels.Startup;
 using ListBuddy.Views;
 using ListBuddy.Views.Dashboard;
+using ListBuddy.Views.DetailPages;
 using ListBuddy.Views.OtherPages;
 using ListBuddy.Views.Startup;
 
@@ -25,14 +26,20 @@ public static class MauiProgram
 		builder.Services.AddSingleton<DashboardPage>();
 		builder.Services.AddSingleton<LoginPage>();
 		builder.Services.AddSingleton<LoadingPage>();
-		builder.Services.AddSingleton<ListsPage>();
-		builder.Services.AddTransient<DetailPage>();
+		builder.Services.AddSingleton<GamesPage>();
+		builder.Services.AddTransient<GamesDetailPage>();
+		builder.Services.AddTransient<MoviesPage>();
+		builder.Services.AddTransient<DailyTasks>();
+		builder.Services.AddTransient<MoviesDetailPage>();
 
-		builder.Services.AddTransient<DetailPageViewModel>();
+		builder.Services.AddTransient<MoviesDetailPageViewModel>();
+		builder.Services.AddTransient<DailyTasksPageViewModel>();
+		builder.Services.AddTransient<MoviesPageViewModel>();
+		builder.Services.AddTransient<GamesDetailPageViewModel>();
         builder.Services.AddSingleton<LoginPageViewModel>();
 		builder.Services.AddSingleton<DashboardPageViewModel>();
 		builder.Services.AddSingleton<LoadingPageViewModel>();
-		builder.Services.AddSingleton<ListsPageViewModel>();
+		builder.Services.AddSingleton<GamesPageViewModel>();
 
         return builder.Build();
 	}

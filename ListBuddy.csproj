@@ -52,16 +52,25 @@
 	  <MauiXaml Update="Controls\FlyoutHeaderControl.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\DetailPages\MoviesDetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\OtherPages\AboutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Dashboard\DashboardPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\OtherPages\DetailPage.xaml">
+	  <MauiXaml Update="Views\DetailPages\GamesDetailPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\OtherPages\ListsPage.xaml">
+	  <MauiXaml Update="Views\OtherPages\DailyTasks.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\OtherPages\GamesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\OtherPages\MoviesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Startup\LoadingPage.xaml">
@@ -78,6 +87,19 @@
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\DetailPages\GamesDetailPage.xaml.cs">
+	    <DependentUpon>GamesDetailPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\OtherPages\DailyTasks.xaml.cs">
+	    <DependentUpon>DailyTasks.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\OtherPages\GamesPage.xaml.cs">
+	    <DependentUpon>GamesPage.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>
