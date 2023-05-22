@@ -52,17 +52,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.Dashboard.
 build_metadata.AdditionalFiles.TargetPath = Views\Dashboard\DashboardPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Dashboard\DashboardPage.xaml
 
+[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/DetailPages/GamesDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.DetailPages.GamesDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DetailPages\GamesDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DetailPages\GamesDetailPage.xaml
+
+[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/DetailPages/MoviesDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.DetailPages.MoviesDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DetailPages\MoviesDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DetailPages\MoviesDetailPage.xaml
+
 [C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.AboutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\AboutPage.xaml
 
-[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/DetailPage.xaml]
+[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/DailyTasks.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.DetailPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\DetailPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\DetailPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.DailyTasks.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\DailyTasks.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\DailyTasks.xaml
+
+[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/GamesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.GamesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\GamesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\GamesPage.xaml
 
 [C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -70,11 +88,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages
 build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\HomePage.xaml
 
-[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/ListsPage.xaml]
+[C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/MoviesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.ListsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\ListsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\ListsPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ListBuddy.Views.OtherPages.MoviesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OtherPages\MoviesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OtherPages\MoviesPage.xaml
 
 [C:/Users/ppetr/Source/Repos/BobtTheBuilder/ListBuddy/Views/OtherPages/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

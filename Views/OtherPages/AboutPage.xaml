@@ -4,8 +4,10 @@
              x:Class="ListBuddy.Views.OtherPages.AboutPage"
              Title="AboutPage">
     <VerticalStackLayout>
-        <Label             
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label     
+            Text="This App is all about helping the community of gamers, movie lovers and just the typical daily life of the user."
+            FontSize="30"
+            VerticalOptions="FillAndExpand" 
+            HorizontalOptions="FillAndExpand" />
     </VerticalStackLayout>
 </ContentPage>

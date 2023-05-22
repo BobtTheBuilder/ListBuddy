@@ -5,9 +5,13 @@
              Title="HomePage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to ListBuddy"
-            FontSize="25"
+            Text="Welcome to GAVIES"
+            FontSize="35"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label
+            Text="The place for game developers, movie directors and the best of fans"
+            FontSize="20"
+            />
     </VerticalStackLayout>
 </ContentPage>

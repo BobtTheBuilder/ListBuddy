@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-14T23:44:49.957</Modified>
+      <Modified>2023-05-22T02:06:51.313</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-14T23:44:49.279</Modified>
+      <Modified>2023-05-22T02:06:50.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ListBuddy.runtimeconfig.json">
       <PackagePath>ListBuddy.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-14T23:43:05.825</Modified>
+      <Modified>2023-05-22T02:06:49.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ListBuddy.dll">
       <PackagePath>ListBuddy.dll</PackagePath>
-      <Modified>2023-05-14T23:43:02.197</Modified>
+      <Modified>2023-05-22T02:06:42.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ListBuddy.exe</PackagePath>
-      <Modified>2023-05-14T23:43:02.309</Modified>
+      <Modified>2023-05-22T02:06:42.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ppetr\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.12\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1096,7 +1096,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ppetr\Source\Repos\BobtTheBuilder\ListBuddy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ListBuddy.deps.json">
       <PackagePath>ListBuddy.deps.json</PackagePath>
-      <Modified>2023-05-14T23:44:49.767</Modified>
+      <Modified>2023-05-22T02:06:50.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ppetr\.nuget\packages\microsoft.maui.controls.ref.win\6.0.548\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

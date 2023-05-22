@@ -22,5 +22,5 @@ namespace ListBuddy.Database
         {
             return database.Table<UserInfo>().Where(i => i.Username == username).FirstOrDefaultAsync();
         }
-    }
+     }
 }

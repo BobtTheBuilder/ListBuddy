@@ -16,41 +16,113 @@
         <member name="P:ListBuddy.ViewModels.BaseViewModel.Title">
             <inheritdoc cref="F:ListBuddy.ViewModels.BaseViewModel._title"/>
         </member>
-        <member name="F:ListBuddy.ViewModels.DetailPageViewModel.addCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DetailPageViewModel.AddCommand"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.DailyTasksPageViewModel.Items">
+            <inheritdoc cref="F:ListBuddy.ViewModels.DailyTasksPageViewModel.items"/>
         </member>
-        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.AddCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DetailPageViewModel.Add"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.DailyTasksPageViewModel.Text">
+            <inheritdoc cref="F:ListBuddy.ViewModels.DailyTasksPageViewModel.text"/>
         </member>
-        <member name="F:ListBuddy.ViewModels.DetailPageViewModel.deleteCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DetailPageViewModel.DeleteCommand"/>.</summary>
+        <member name="F:ListBuddy.ViewModels.DailyTasksPageViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DailyTasksPageViewModel.AddCommand"/>.</summary>
         </member>
-        <member name="P:ListBuddy.ViewModels.DetailPageViewModel.DeleteCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DetailPageViewModel.Delete(System.String)"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.DailyTasksPageViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DailyTasksPageViewModel.Add"/>.</summary>
         </member>
-        <member name="P:ListBuddy.ViewModels.ListsPageViewModel.Items">
-            <inheritdoc cref="F:ListBuddy.ViewModels.ListsPageViewModel.items"/>
+        <member name="F:ListBuddy.ViewModels.DailyTasksPageViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.DailyTasksPageViewModel.DeleteCommand"/>.</summary>
         </member>
-        <member name="P:ListBuddy.ViewModels.ListsPageViewModel.Text">
-            <inheritdoc cref="F:ListBuddy.ViewModels.ListsPageViewModel.text"/>
+        <member name="P:ListBuddy.ViewModels.DailyTasksPageViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.DailyTasksPageViewModel.Delete(System.String)"/>.</summary>
         </member>
-        <member name="F:ListBuddy.ViewModels.ListsPageViewModel.addCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.ListsPageViewModel.AddCommand"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.GamesDetailPageViewModel.Gameitem">
+            <inheritdoc cref="F:ListBuddy.ViewModels.GamesDetailPageViewModel.gameitem"/>
         </member>
-        <member name="P:ListBuddy.ViewModels.ListsPageViewModel.AddCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.ListsPageViewModel.Add"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.GamesDetailPageViewModel.Text">
+            <inheritdoc cref="F:ListBuddy.ViewModels.GamesDetailPageViewModel.text"/>
         </member>
-        <member name="F:ListBuddy.ViewModels.ListsPageViewModel.deleteCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.ListsPageViewModel.DeleteCommand"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.GamesDetailPageViewModel.Gametext">
+            <inheritdoc cref="F:ListBuddy.ViewModels.GamesDetailPageViewModel.gametext"/>
         </member>
-        <member name="P:ListBuddy.ViewModels.ListsPageViewModel.DeleteCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.ListsPageViewModel.Delete(System.String)"/>.</summary>
+        <member name="F:ListBuddy.ViewModels.GamesDetailPageViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.GamesDetailPageViewModel.AddCommand"/>.</summary>
         </member>
-        <member name="F:ListBuddy.ViewModels.ListsPageViewModel.tapCommand">
-            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.ListsPageViewModel.TapCommand"/>.</summary>
+        <member name="P:ListBuddy.ViewModels.GamesDetailPageViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.GamesDetailPageViewModel.Add"/>.</summary>
         </member>
-        <member name="P:ListBuddy.ViewModels.ListsPageViewModel.TapCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.ListsPageViewModel.Tap(System.String)"/>.</summary>
+        <member name="F:ListBuddy.ViewModels.GamesDetailPageViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.GamesDetailPageViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.GamesDetailPageViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.GamesDetailPageViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.Movieitem">
+            <inheritdoc cref="F:ListBuddy.ViewModels.MoviesDetailPageViewModel.movieitem"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.Text">
+            <inheritdoc cref="F:ListBuddy.ViewModels.MoviesDetailPageViewModel.text"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.Movietext">
+            <inheritdoc cref="F:ListBuddy.ViewModels.MoviesDetailPageViewModel.movietext"/>
+        </member>
+        <member name="F:ListBuddy.ViewModels.MoviesDetailPageViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.MoviesDetailPageViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:ListBuddy.ViewModels.MoviesDetailPageViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesDetailPageViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.MoviesDetailPageViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.GamesPageViewModel.Items">
+            <inheritdoc cref="F:ListBuddy.ViewModels.GamesPageViewModel.items"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.GamesPageViewModel.Text">
+            <inheritdoc cref="F:ListBuddy.ViewModels.GamesPageViewModel.text"/>
+        </member>
+        <member name="F:ListBuddy.ViewModels.GamesPageViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.GamesPageViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.GamesPageViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.GamesPageViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:ListBuddy.ViewModels.GamesPageViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.GamesPageViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.GamesPageViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.GamesPageViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:ListBuddy.ViewModels.GamesPageViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.GamesPageViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.GamesPageViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.GamesPageViewModel.Tap(System.String)"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesPageViewModel.Items">
+            <inheritdoc cref="F:ListBuddy.ViewModels.MoviesPageViewModel.items"/>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesPageViewModel.Text">
+            <inheritdoc cref="F:ListBuddy.ViewModels.MoviesPageViewModel.text"/>
+        </member>
+        <member name="F:ListBuddy.ViewModels.MoviesPageViewModel.addCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.MoviesPageViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesPageViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ListBuddy.ViewModels.MoviesPageViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:ListBuddy.ViewModels.MoviesPageViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.MoviesPageViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesPageViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.MoviesPageViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:ListBuddy.ViewModels.MoviesPageViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:ListBuddy.ViewModels.MoviesPageViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:ListBuddy.ViewModels.MoviesPageViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ListBuddy.ViewModels.MoviesPageViewModel.Tap(System.String)"/>.</summary>
         </member>
         <member name="P:ListBuddy.ViewModels.Startup.LoginPageViewModel.Email">
             <inheritdoc cref="F:ListBuddy.ViewModels.Startup.LoginPageViewModel._email"/>

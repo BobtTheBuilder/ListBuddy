@@ -31,9 +31,19 @@
 
         <ShellContent
         Title="Games"
-        ContentTemplate="{DataTemplate otherPages:ListsPage}"
-        Route="ListsPage" />
+        ContentTemplate="{DataTemplate otherPages:GamesPage}"
+        Route="GamesPage" />
         
+        <ShellContent
+        Title="Movies"
+        ContentTemplate="{DataTemplate otherPages:MoviesPage}"
+        Route="MoviesPage" />
+
+        <ShellContent
+        Title="DailyTasks"
+        ContentTemplate="{DataTemplate otherPages:DailyTasks}"
+        Route="DailyTasksPage" />
+
     </FlyoutItem>
 
     <Shell.FlyoutFooter>
